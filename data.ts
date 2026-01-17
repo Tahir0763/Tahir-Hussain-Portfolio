@@ -29,7 +29,7 @@ export const PROJECTS: Project[] = [
       "Engineered low-latency screen control with PyAutoGUI and Pyperclip for targeted user detection and rapid replies."
     ],
     tags: ["Python", "RPA", "OpenAI API", "PyAutoGUI"],
-    image: "/projects/auto-reply-gen.png"
+    image: `${import.meta.env.BASE_URL}projects/auto-reply-gen.png`
   },
   {
     id: "prompt-widget",
@@ -43,7 +43,7 @@ export const PROJECTS: Project[] = [
       "Supports model selection (Gemini, OpenRouter) and custom prompt optimization workflows."
     ],
     tags: ["Python", "Windows API", "Gemini API", "Desktop Widget"],
-    image: "/projects/prompt-widget-gen.png"
+    image: `${import.meta.env.BASE_URL}projects/prompt-widget-gen.png`
   },
   {
     id: "ai-meeting",
