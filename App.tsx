@@ -123,11 +123,7 @@ const ThreeDProfile = () => {
           <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} intensity={1} />
           <pointLight position={[-10, -10, -10]} intensity={0.5} color="#4f46e5" />
 
-          {/* Debug Cube to verify 3D Engine */}
-          <mesh position={[2, 0, 0]}>
-            <boxGeometry args={[0.5, 0.5, 0.5]} />
-            <meshStandardMaterial color="green" />
-          </mesh>
+
 
           <Suspense fallback={null}>
             <ModelLoaderBoundary fallback={null}>
