@@ -103,6 +103,8 @@ const GLBModel = () => {
   return <primitive object={scene} scale={1.8} position={[0, 0.3, 0]} />;
 };
 
+useGLTF.preload(`${import.meta.env.BASE_URL}3d_hologram/model.glb`);
+
 const ThreeDProfile = () => {
   const fallbackUI = (
     <div className="w-full h-full flex items-center justify-center relative">
